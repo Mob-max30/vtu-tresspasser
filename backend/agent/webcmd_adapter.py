@@ -116,7 +116,8 @@ class WebcmdVTUAdapter:
 
     def start_browser(self):
         result = _run_webcmd(["session", "create", "-f", "json"])
-        self.session_id = result.get("sessionId") or result.get("session_id")
+        # Confirmed via live testing against webcmd 0.7.4: the field is "id".
+        self.session_id = result.get("id")
         if not self.session_id:
             raise WebcmdAgentError(f"Could not parse session id from: {result}")
         return self.session_id
