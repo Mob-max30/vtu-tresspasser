@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/database/vtu_results.db
+.env
+node_modules/
+dist/
+frontend/.vite/

@@ -1,0 +1,20 @@
+{
+  "_comment": "Fill in actual subjects/credits per your college's scheme. Structure is fixed; contents are not.",
+  "P": {
+    "cycleName": "Physics Cycle",
+    "subjects": [
+      { "code": "PLACEHOLDER-P1", "name": "Subject A", "credits": 4 },
+      { "code": "PLACEHOLDER-P2", "name": "Subject B", "credits": 3 }
+    ]
+  },
+  "C": {
+    "cycleName": "Chemistry Cycle",
+    "subjects": [
+      { "code": "PLACEHOLDER-C1", "name": "Subject X", "credits": 4 },
+      { "code": "PLACEHOLDER-C2", "name": "Subject Y", "credits": 3 }
+    ]
+  },
+  "gradePoints": {
+    "O": 10, "A+": 9, "A": 8, "B+": 7, "B": 6, "C": 5, "P": 4, "F": 0, "AB": 0, "W": 0
+  }
+}
